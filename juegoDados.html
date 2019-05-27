@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Juego de dados</title>
+</head>
+
+<body>
+	<h1>Lanza los dados </h1>
+
+<script type = "text/javascript">
+	
+	let shot1 = Math.round(Math.random()*6);
+	let shot2 = Math.round(Math.random()*6);
+	let shot3 = Math.round(Math.random()*6);
+	
+	if (shot1 === shot2 || shot1 === shot3) {
+		alert ("¡Felicidades, ganaste!");
+	} else if (shot2 === shot3) {
+		alert ("¡Felicidades, ganaste!");
+	} else {
+		alert ("Vuelve a tirar los dados.");
+	}
+	
+</script>
+</body>
+</html>
+
