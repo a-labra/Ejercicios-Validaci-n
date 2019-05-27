@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>¿Qué clase me toca hoy?</title>
+</head>
+
+<body>
+	<h1> Dime qué día es y te indicaré cuál clase te toca hoy </h1>
+	
+<script type = "text/javascript">
+
+	let dia = prompt("¿Qué día es?");
+	dia = dia.toLowerCase();
+	
+	if (dia == "lunes" || dia == "miércoles" || dia == "miercoles") {
+		alert ("Te toca clase de Historia.");
+	} else if (dia == "martes") {
+		alert ("Te toca clase de Natación.");
+	} else if (dia == "jueves") {
+		alert ("Te toca clase de esgrima.");
+	} else {
+		alert ("Hoy te toca descansar.");
+	}
+
+</script>
+</body>
+</html>
